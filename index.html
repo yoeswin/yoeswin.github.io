@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 <style>
@@ -170,7 +170,18 @@ a {
 	  <a href="https://www.linkedin.in/yoeswin" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 	  <a href="https://www.github.com/yoeswin" target="_blank"><i class="fa fa-github fa-2x"></i></a>
   </footer>
-	
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCM-hazWCoek9IY_Cch1x_Sr7OK-9vToSg",
+    authDomain: "my-profile-24fab.firebaseapp.com",
+    databaseURL: "https://my-profile-24fab.firebaseio.com",
+    projectId: "my-profile-24fab",
+    storageBucket: "my-profile-24fab.appspot.com",
+    messagingSenderId: "773720909495"
+  };
+  firebase.initializeApp(config);
+</script>
 </body>
 
 </html>
