@@ -169,6 +169,40 @@ a {
 	  <a href="https://www.linkedin.in/yoeswin" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 	  <a href="https://www.github.com/yoeswin" target="_blank"><i class="fa fa-github fa-2x"></i></a>
   </footer>
+  <script type="text/javascript">//<![CDATA[ 
+    (function() {
+        var configuration = {
+        "token": "6c3240d015e645e4b6be947d6e2fe592",
+        "excludeDomains": [
+            "yourowndomain.com"
+        ],
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        },
+        "entryScript": {
+            "type": "timeout",
+            "timeout": 3000,
+            "capping": {
+                "limit": 5,
+                "timeout": 24
+            }
+        },
+        "exitScript": {
+            "enabled": true
+        },
+        "popUnder": {
+            "enabled": true
+        }
+    };
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '//cdn.shorte.st/link-converter.min.js';
+        script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+        var entry = document.getElementsByTagName('script')[0];
+        entry.parentNode.insertBefore(script, entry);
+    })();
+    //]]></script>
 </body>
 
 </html>
